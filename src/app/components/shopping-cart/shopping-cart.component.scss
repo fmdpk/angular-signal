@@ -1,0 +1,21 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+
+  div:last-child {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #c3c3c3;
+  }
+}
+.box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
