@@ -16,6 +16,7 @@ import { isPlatformBrowser } from '@angular/common';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { TemplateDrivenFormComponent } from './components/template-driven-form/template-driven-form.component';
 import { ReactiveFormComponent } from './components/reactive-form/reactive-form.component';
+import { PersianHolidaysComponent } from './components/persian-holidays/persian-holidays.component';
 
 @Component({
   selector: 'app-root',
@@ -25,6 +26,7 @@ import { ReactiveFormComponent } from './components/reactive-form/reactive-form.
     ShoppingCartComponent,
     TemplateDrivenFormComponent,
     ReactiveFormComponent,
+    PersianHolidaysComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
